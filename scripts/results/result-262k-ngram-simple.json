@@ -1,0 +1,47 @@
+{
+  "props_n_ctx": 262144,
+  "short_tg128": {
+    "label": "short_tg128",
+    "prompt_tokens": 479,
+    "completion_tokens": 55,
+    "wall_s": 2.18,
+    "pp_tok_s": 828.9,
+    "tg_tok_s": 33.7,
+    "pp_ms": 578.0,
+    "tg_ms": 1601.0,
+    "finish": "stop"
+  },
+  "pp8k_tg128": {
+    "label": "pp8k_tg128",
+    "prompt_tokens": 12981,
+    "completion_tokens": 57,
+    "wall_s": 16.01,
+    "pp_tok_s": 913.5,
+    "tg_tok_s": 33.9,
+    "pp_ms": 14210.0,
+    "tg_ms": 1652.0,
+    "finish": "stop"
+  },
+  "pp32k_tg64": {
+    "label": "pp32k_tg64",
+    "prompt_tokens": 39428,
+    "completion_tokens": 56,
+    "wall_s": 66.57,
+    "pp_tok_s": 609.4,
+    "tg_tok_s": 30.4,
+    "pp_ms": 64696.0,
+    "tg_ms": 1811.0,
+    "finish": "stop"
+  },
+  "pp64k_tg64": {
+    "label": "pp64k_tg64",
+    "prompt_tokens": 52386,
+    "completion_tokens": 64,
+    "wall_s": 141.58,
+    "pp_tok_s": 376.8,
+    "tg_tok_s": 25.7,
+    "pp_ms": 139027.0,
+    "tg_ms": 2447.0,
+    "finish": "length"
+  }
+}
